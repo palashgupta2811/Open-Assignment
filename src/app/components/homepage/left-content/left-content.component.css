@@ -1,0 +1,23 @@
+.leftContent{
+  margin:30% 0% 0% 11%;
+}
+.leftContent div {
+  width: 60%;
+  margin-left: 10%;
+  margin-bottom: 8%;
+  padding-top: 2%;
+}
+.line{
+  width: 54% !important;
+  height: 8px;
+  background: #000000;
+  border-radius: 13px;
+  opacity: 0.7;
+  margin: 4px 0 0 0 !important;
+  padding-top: 0 !important;
+}
+
+.imageContent{
+  width: 100%;
+  padding-bottom: 4%;
+}

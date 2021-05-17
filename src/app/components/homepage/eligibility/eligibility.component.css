@@ -1,0 +1,151 @@
+.rightSection{
+  margin:20% 0% 0% 27%;
+}
+.eligibilitySection{
+  height: 31vw;
+  width: 80%;
+  display: flex;
+}
+.eligibilitySection .form{
+  display: inline-block;
+  width: 63%;
+  background:#ffffff;
+  border-radius: 6%;
+  box-shadow: 0px 0px 20px #00000033
+
+}
+.header{
+  background: #E8EDFF;
+  text-align: center;
+  padding: 3%;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 1vw;
+  opacity: 0.7;
+  border-radius: 20px 20px 0px 0px;
+}
+.formBody{
+  padding: 10%;
+  background: #ffffff;
+  font-family:Montserrat ;
+  border-radius: 0px 0px 20px 20px ;
+}
+.formBody h6{
+  font-size: 1rem;
+  margin: 2% 0;
+}
+
+.formBody input{
+  width: 100%;
+}
+small{
+  font-size: .7rem;
+}
+.leftRange{
+  display: inline-block;
+  float: left;
+}
+.RightRange{
+  display: inline-block;
+  float: right;
+}
+
+.removeStyle{
+    width: 100%;
+    margin-top: 2%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    outline: none;
+}
+.slider.round {
+  border-radius: 34px;
+
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.slider {
+  height: 1vw;
+  width: 12%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 0px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #663399;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #663399;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+.slidecontainer {
+  width: 100%;
+  position: relative;
+}
+.customSlider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.customSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: #663399;
+  cursor: pointer;
+}
+
+.track{
+  height: 8px;
+  background: #663399;
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

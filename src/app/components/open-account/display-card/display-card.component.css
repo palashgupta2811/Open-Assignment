@@ -1,0 +1,24 @@
+.cardBody{
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 1vw;
+    font-weight: 600;
+  word-break: break-word;
+  width: 290px;
+  height: 190px;
+  border-radius: 6%;
+  box-shadow: 0px 0px 20px #00000033;
+  padding: -3%;
+  padding: 4%;
+  margin-bottom: 10%;
+  margin-right: 4vw;
+  background: white;
+}
+.cardBody:hover{
+  cursor: pointer;
+  background-color: #663399;
+  color :white
+}
+.cardBody div{
+  margin-bottom: 5%;
+}

@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  position: relative;
+  padding-bottom: 10%;
+}
+.container .rightSection {
+  width: 55%;
+  background-image: url(../../../assets/circle.svg), url(../../../assets/accounting_dots.svg);
+  background-position: 4vw -10vw,right 15% bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% , 35%;
+}
+.container .leftSection {
+  width: 45%;
+  background-image: url(../../../assets/blob-small.svg), url(../../../assets/accounting_dots.svg);
+  background-position: -30% ,right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% , 40%;
+}
+

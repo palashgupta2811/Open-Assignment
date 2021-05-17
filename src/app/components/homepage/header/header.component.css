@@ -1,0 +1,55 @@
+.headerSection{
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+.logo{
+  margin-left: 5%;
+  float: left;
+}
+.contentRight{
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+.contentRight a {
+  font-family: Open Sans,Regular;
+  font-weight: 600;
+  margin-right: 5%;
+}
+.contentRight a:hover{
+  color: #9F62C9;
+  cursor: pointer;
+}
+.contentRight .login {
+  border-radius: 20%;
+  background: white;
+  border:2px solid #663399 ;
+  color: #663399;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 11%;
+  height: 2.5vw;
+  box-shadow: 0px 0px 20px #00000033;
+  border-radius: 24px;
+  margin-right: 2%;
+}
+.contentRight .login:hover {
+  color: white;
+  background: #663399;
+  cursor: pointer;
+}
+.contentRight .getStarted{
+  border-radius: 20%;
+  background:  transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;;
+  border:2px solid #663399 ;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 13%;
+  height:2.5vw;
+  box-shadow: 0px 0px 20px #00000033;
+  border-radius: 24px;
+  cursor: pointer;
+  margin-right: 4%;
+}

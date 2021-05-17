@@ -1,0 +1,51 @@
+<div class="rightSection">
+  <div class="eligibilitySection">
+      <div class="form">
+        <div class="header">
+          Eligibility Calculator
+        </div>
+        <div class ="formBody">
+          <div style="margin-bottom: 20%;">
+              <label ><small>Monthly Income</small></label>
+              <h6><span>&#8377;</span> {{this.changeFormat(selectedMonthlyIncome)}}</h6>
+              <div class="slidecontainer">
+                <input class="customSlider"type="range" [min] ="0" [max]="300000" [value]="this.selectedMonthlyIncome" (input)="change($event)" />
+                <div class="track" [style.width]="returnWidth(selectedMonthlyIncome,300000)-3+'%'">
+                </div>
+              </div>
+              <div class="leftRange"><small><span>&#8377;</span> 1,00,000</small></div>
+              <div class="RightRange"><small><span>&#8377;</span> 3,00,000</small></div>
+          </div>
+          <div style="margin-bottom: 15%;">
+              <label ><small>Monthly Expense</small></label>
+              <h6><span>&#8377;</span> {{this.changeFormat(selectedMonthlyExpense)}}</h6>
+              <div class="slidecontainer">
+                <input class="customSlider" type="range" [min] ="0" [max]="100000" [value]="this.selectedMonthlyExpense" (input)="change($event,'expense')" />
+                <div class="track" [style.width]="returnWidth(selectedMonthlyExpense,100000)-3+'%'">
+                </div>
+              </div>
+          </div>
+          <div style="margin-bottom: 15%;">
+            <label ><small>Repayment Tenure</small></label>
+           <select class="removeStyle" >
+             <option>3 Months</option>
+             <option selected>6 Months</option>
+             <option>9 Months</option>
+           </select>
+          </div>
+          <div style="margin-bottom: 15%;">
+          <label class="switch"><small>Do you have any existing loans ? </small>
+            <input [style.width]="'17%'"   type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div style="margin-bottom: 15%;">
+          <label class="switch"><small>EMI of existing loan (optional) </small> </label>
+            <input class="removeStyle" value="&#8377;"type="text">
+        </div>
+        </div>
+      </div>
+
+    <app-side-display style="margin:'auto';margin-left: 1%;"></app-side-display>
+  </div>
+</div>

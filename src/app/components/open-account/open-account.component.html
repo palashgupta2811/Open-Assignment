@@ -1,0 +1,18 @@
+<div class="container">
+  <div  class="leftSide">
+    <div style="display: flex;flex-wrap: wrap;">
+    <app-display-card style="display: inline-block;" *ngFor="let item of displayCard;let i=index" [ngStyle]="{'margin-top': i%2 != 0 ? '8%':''}" [title]="item.title" [desc]='item.desc' [imageSrc]="item.url"></app-display-card>
+    <!-- <app-display-card style="display: inline-block;"*ngFor="let item of displayRightCard" [title]="item.title" [desc]='item.desc' [imageSrc]="item.url" ></app-display-card> -->
+  </div>
+  </div>
+  <div  class="RightSide">
+    <div  style="padding: 25%;">
+      <h6 class="textContent">
+        Boost your business with Open
+      </h6>
+      <img src="../../../assets/Line 3.svg">
+      <div style="margin-top: 7%;"><small>Get your hands on a term loan that's crafted for your business</small></div>
+      <button class="login" type="button">Get an Open Account</button>
+    </div>
+  </div>
+</div>
